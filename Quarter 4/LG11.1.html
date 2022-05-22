@@ -1,0 +1,65 @@
+<!-- 
+● Refer to the instructions in Module 11.1 for the input fields needed for a sign-up sheet. Using the events that we have learned today, make the sign-up sheet interactive for the user.
+
+● Add a selection element to ask the user for their gender. Add the options “Male,” “Female,” and “Prefer not to mention.”
+
+● Use onblur and onfocus to add red borders to the input elements when the user leaves without any input, and a green border if a value is typed and the user is done with the input element.
+
+● Upon submission of the form, print all the information that the user has provided on a div or p tag at the bottom of the page.
+
+● Use fieldset and legend tag to separate the input part from the output part of the form.
+
+● Include a reset button to clear users input and also the information displayed at the bottom of the page.
+
+● Feel free also to design your own version and add other features that can make use of the HTML events that we have learned today.
+ -->
+
+
+<!doctype html>
+<html>
+<head>
+
+    <title>(Graded) Exercise 2</title>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    
+    <form id="login" autocomplete="on">
+
+        <fieldset form="login">
+
+            <legend>Log-In Credentials: </legend>
+
+            <label for="userName">Username:</label><br>
+            <input type="text" id="userName" name="Username"><br><br>
+            <!-- Username -->
+    
+            <label for="password">Password:</label><br>
+            <input type="text" id="password" name="password"><br><br>
+            <!-- Password -->
+    
+            <label for="age">Enter your age: </label><br>
+            <input type="number" id="age" name="age" min="1" max="100"><br><br>
+            <!-- Age -->
+    
+            <input type="button" value="Click Me!" onclick="button ()"><br><br>
+            <!-- Button -->
+    
+            <input type="Submit" value="Submit Form">
+            <!-- Submit -->
+    
+            <input type="reset" value="Reset"><br><br>
+            <!-- Reset -->
+    
+            <label for="comments">Comments: </label><br>
+            <textarea name="comments" id="tArea" cols="50" rows="4"></textarea>
+            <!-- Textarea -->
+
+        </fieldset>
+
+    </form>
+
+</body>
+</html>
