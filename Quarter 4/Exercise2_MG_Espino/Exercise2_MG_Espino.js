@@ -30,7 +30,7 @@ function outputGender() {
     }
 
     if (gender == "Prefer not to say") {
-        alert(document.getElementById("output").innerHTML = "User prefer's not to say their gender");
+        alert(document.getElementById("output").innerHTML = "User prefers not to say their gender");
         return;
         // If the user's input is "Prefer not to say"
         // Print and Alert that they don't want to say their gender
