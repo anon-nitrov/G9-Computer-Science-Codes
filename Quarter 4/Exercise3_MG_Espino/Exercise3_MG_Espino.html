@@ -16,11 +16,19 @@
 
             <legend>Interactive Multiplication Table</legend>
 
-            <label for = ""></label>
+            <label for="countRows">Number of Rows: </label>
+            <input type="number"    id="countRows"     min="2" max="9"><br><br>
+
+            <label for="countColumns">Number of Columns: </label>
+            <input type="number"    id="countColumns"  min="2" max="9"><br><br>
+
+            <input type="button"    value="Generate Multiplication Table"   onclick="multiplicationTable()">
 
         </fieldset>
 
     </form>
+
+    <div id="multiplicationTable"></div>
     
 </body>
 </html>
