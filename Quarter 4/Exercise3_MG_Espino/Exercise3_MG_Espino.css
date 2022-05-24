@@ -1,0 +1,15 @@
+table {
+    border: solid black;
+}
+
+table td, table th {
+    border-color: antiquewhite;
+}
+
+table tr:nth-child(even) {
+    border-color: bisque;
+}
+
+table tr:hover {
+    border-color: aquamarine;
+}
