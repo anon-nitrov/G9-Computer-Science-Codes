@@ -1,6 +1,7 @@
 function multiplicationTable() {
 
-    let table   =   "<table>";
+    let table;
+    table   =   "<table>";
     let countRows       =   document.getElementById("countRows").value;
     let countColumns    =   document.getElementById("countColumns").value;
 
@@ -34,13 +35,17 @@ function multiplicationTable() {
         }
         // If any of the given input is not a number, throw an error
 
-        for (len = 1; len   <=   count.Rows; len++) {
-            table += "<tr>";
-            // Makes "count.Rows" number of rows for the table
-            for (count.Rows  =   1, count.Rows    <=   count.Columns; count.Rows++;) {
-                table   +=  "<td>" + count.Rows * len + "</td>";
-            } table += "</tr>";
-        }
+        
+    }
+    
+    for (len = 1; len   <=   count.Rows; len++) {
+        table += "<tr>";
+
+        for (i  =   1; i    <=   count.Columns; i++) {
+            table   +=  "<td>" + i * len + "</td>";
+        } 
+
+        table += "</tr>";
     }
 
     table   +=  "</table>";
