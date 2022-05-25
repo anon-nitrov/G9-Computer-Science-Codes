@@ -3,13 +3,13 @@ table {
 }
 
 table td, table th {
-    border-color: antiquewhite;
+    border: 1px solid antiquewhite;
 }
 
 table tr:nth-child(even) {
-    border-color: bisque;
+    background-color: bisque;
 }
 
 table tr:hover {
-    border-color: aquamarine;
+    background-color: aquamarine;
 }
