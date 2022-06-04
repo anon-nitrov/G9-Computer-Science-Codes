@@ -34,8 +34,6 @@ function multiplicationTable() {
             return;
         }
         // If any of the given input is not a number, throw an error
-
-        
     }
     
     for (len = 1; len   <=   count.Rows; len++) {

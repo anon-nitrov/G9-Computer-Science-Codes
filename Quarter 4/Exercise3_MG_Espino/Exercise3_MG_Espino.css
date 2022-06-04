@@ -2,7 +2,7 @@ table {
     border: solid black;
 }
 
-table td, table th {
+table td, table tr {
     border: 1px solid antiquewhite;
 }
 
